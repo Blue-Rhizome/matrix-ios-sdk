@@ -8,7 +8,7 @@ abstract_target 'MatrixSDK' do
     pod 'OLMKit', '~> 3.2.2', :inhibit_warnings => true
     #pod 'OLMKit', :path => '../olm/OLMKit.podspec'
     
-    pod 'Realm', '10.1.4'
+    pod 'Realm', :git => 'https://github.com/Blue-Rhizome/realm-cocoa.git', :branch => 'master'
     pod 'libbase58', '~> 0.1.4'
     
     target 'MatrixSDK-iOS' do
