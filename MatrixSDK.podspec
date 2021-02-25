@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
     
     ss.source_files  = "MatrixSDKExtensions/VoIP/Jingle/**/*.{h,m}"
     
-    ss.dependency 'MatrixSDK/Core', :git => 'https://github.com/Blue-Rhizome/matrix-ios-sdk', :branch => 'master'
+    ss.dependency 'MatrixSDK/Core'
     
     # The Google WebRTC stack
     # Note: it is disabled because its framework does not embed x86 build which
