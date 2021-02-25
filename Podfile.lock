@@ -34,9 +34,9 @@ PODS:
     - OLMKit/olmcpp (= 3.2.2)
   - OLMKit/olmc (3.2.2)
   - OLMKit/olmcpp (3.2.2)
-  - Realm (10.1.4):
-    - Realm/Headers (= 10.1.4)
-  - Realm/Headers (10.1.4)
+  - Realm (10.7.0):
+    - Realm/Headers (= 10.7.0)
+  - Realm/Headers (10.7.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 4.0.0)
@@ -44,7 +44,7 @@ DEPENDENCIES:
   - libbase58 (~> 0.1.4)
   - OHHTTPStubs (~> 9.0.0)
   - OLMKit (~> 3.2.2)
-  - Realm (= 10.1.4)
+  - Realm (from `https://github.com/Blue-Rhizome/realm-cocoa.git`, branch `master`)
 
 SPEC REPOS:
   trunk:
@@ -53,7 +53,16 @@ SPEC REPOS:
     - libbase58
     - OHHTTPStubs
     - OLMKit
-    - Realm
+
+EXTERNAL SOURCES:
+  Realm:
+    :branch: master
+    :git: https://github.com/Blue-Rhizome/realm-cocoa.git
+
+CHECKOUT OPTIONS:
+  Realm:
+    :commit: 6fb9c8114e85146105f6dea6b8ddb8827eabd3dc
+    :git: https://github.com/Blue-Rhizome/realm-cocoa.git
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -61,8 +70,8 @@ SPEC CHECKSUMS:
   libbase58: 7c040313537b8c44b6e2d15586af8e21f7354efd
   OHHTTPStubs: cb29d2a9d09a828ecb93349a2b0c64f99e0db89f
   OLMKit: 20d1c564033a1ae7148f8f599378d4c798363905
-  Realm: 80f4fb2971ccb9adc27a47d0955ae8e533a7030b
+  Realm: a03c41a3afbda6c197ba4dfba5428b8b54cc2df4
 
-PODFILE CHECKSUM: 5c03869e21642872cded066055388959f8b96b48
+PODFILE CHECKSUM: bd42114287f7fdcb154df634a4321643a78de89a
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1
