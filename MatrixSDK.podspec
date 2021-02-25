@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
       # Requirements for e2e encryption
       ss.dependency 'OLMKit', '~> 3.2.2'
-      ss.dependency 'Realm', '10.1.4'
+      ss.dependency 'Realm', :git => 'https://github.com/Blue-Rhizome/realm-cocoa.git', :branch => 'master'
       ss.dependency 'libbase58', '~> 0.1.4'
   end
 
